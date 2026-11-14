@@ -16,8 +16,6 @@ The first step, the historical data, is actually very easy to retrieve by using 
 
 Select `10Y`, `Download`, and choose either `CSV` or `Excel`.
 
-Then upload this to Excel locally or Excel for Web (other csv editors are available)
-
 ## Daily Updating option 1 - Bash, Python and .csv
 
 - Download data as .csv from fred. *(Should look like the csv in this directory)*
