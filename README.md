@@ -1,10 +1,14 @@
 # data_engineering_stocks
 
-This repo is designed to explore free options to perform data engineering and data analysis on stocks.
+Repo designed to explore methods to retrieve daily stock prices online and append to a local spreadsheet
 
-Due to the breadth of data and sources I will be working with the US Index of the S&P500. 
-
-The constraints I will mainly be working with are around the daily retrieval of data.
+To do:
+- [ ] .service file and automation for Option 1 
+- [ ] Test design Option 1
+- [ ] Testing
+- [ ] Option 2 - Workflow (without paying Microsoft)
+- [ ] Analysis - CSV
+- [ ] Analysis - Excel (can copy and paste in csv to demo)
 
 ## Getting Started
 
@@ -14,7 +18,7 @@ Select `10Y`, `Download`, and choose either `CSV` or `Excel`.
 
 Then upload this to Excel locally or Excel for Web (other csv editors are available)
 
-## Daily Updating option 1 - With Python + CSV
+## Daily Updating option 1 - Bash, Python and .csv
 
 - Download data as .csv from fred. *(Should look like the csv in this directory)*
 - Ensure python and pandas install i.e. `pip install pandas` 
@@ -24,7 +28,7 @@ Then upload this to Excel locally or Excel for Web (other csv editors are availa
 # add service instructions here
 ```
 
-## Daily Updating option 2 - With Power Automate + Excel
+## Daily Updating option 2 - Power Automate + Excel
 
 tbc
 
