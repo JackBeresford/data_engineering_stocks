@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+CSV="SP500.csv"
+
+new_line=$(python web_scraper.py)
+new_date=${new_line%%,*}
+
+last_date=$(tail -n 1 "$CSV" | cut -d, -f1)
+
+if [[ -n "$new_line" && "$new_date" != "$last_date" ]]; then
+    echo "$new_line" >> "$CSV"
+fi
